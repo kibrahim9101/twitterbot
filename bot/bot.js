@@ -5,7 +5,7 @@ const Twit = require('twit');
 const twit = new Twit(require('./config.js'));
 
 // This is the URL of a search for the latest tweets from a group of Palestine News Accounts
-const searchQuery = { q: 'from%3Amiddleeasteye%20OR%20from%3Aeyeonpalestine%20OR%20from%3Awolpalestine%20OR%20from%3Aqudsnen%20OR%20from%3Apalyouthmvmt%20OR%20from%3Apalestinercs)', count: 50, result_type: 'mixed', include_entities: false };
+const searchQuery = { q: 'from:@Middleeasteye OR from:@eyeonpalestine', count: 50, result_type: 'mixed', include_entities: false };
 //Changed to get the 50 most recent tweets instead of 100
 
 //will contain a string for a list I made for Palestine News Sources. I am changing the logic to

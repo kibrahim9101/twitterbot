@@ -24,7 +24,7 @@ const retweetLatest = async() => {
       				console.log(error.message);
 	    		//} else if (response){
 				//console.log(response.message);}
-			 else {
+			}  else {
 				//creating a loop to retweet the entire list of tweets
 				for (let i = 0; i < data.statuses.length; i++){
 					 // Grab the ID of the tweet we want to retweetwit...

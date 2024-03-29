@@ -17,6 +17,6 @@
   "author": "Maye Edwin",
   "license": "MIT",
   "dependencies": {
-    "twit": "^2.2.11"
+    "twitter-api-v2": "^1.16.1"
   }
 }
